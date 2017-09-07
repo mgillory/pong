@@ -1,7 +1,7 @@
 # Pong game
 A fully functional pong game using html, css and js.
 
-# Features of this version
+# Features of this version (1player-mode)
 
 - 1-player mode
 - Basic implementation of AI
@@ -10,7 +10,9 @@ A fully functional pong game using html, css and js.
 
 # Reminders for next version
 
-Randomize ball reset
+Beyond implementing keyboard control, game menu, 2player-mode and rethinking the whole UX and smoothness of the game, we can highlight two pieces of code that must be reviewed as well;  
+
+# Randomize ball reset
 
 ```js
 ballSpeedX = -ballSpeedX;
